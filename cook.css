@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit';
+    font-weight: 400;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(0, 166, 81, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(36, 36, 36, 1) 100%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    position: fixed;
+    top: 0;
+    background:linear-gradient(90deg, rgba(0, 166, 81, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(36, 36, 36, 1) 100%);
+    z-index: 1000;           
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.logo a {
+    margin: 0 4rem;
+    list-style: none;
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 45rem;
+}
+
+ul li {
+    margin: 0 4rem;
+    list-style: none;
+
+}
+
+ul li a {
+    color: #9497A1;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+.sign-up button {
+    display: block;
+    background: linear-gradient(90deg, rgba(0, 166, 81, 1) 0%, rgba(87, 199, 133, 1) 0%, rgba(141, 198, 63, 1) 100%);
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 150px;
+    height: 30px;
+    margin-left: -30%;
+    border-radius: 10px;
+    border: none;
+}
+
+.sign-up button:hover {
+    color: white;
+    background: #343740;
+    border: greenyellow solid 1px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline white;
+    width: 150px;
+    height: 30px;
+}
+
+.sign-in button {
+    display: block;
+    border: greenyellow solid 1px;
+    background-color: #343740;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 150px;
+    height: 30px;
+    margin-left: -20%;
+    border-radius: 10px;
+}
+
+.sign-in button:hover {
+    background: linear-gradient(90deg, rgba(0, 166, 81, 1) 0%, rgba(87, 199, 133, 1) 0%, rgba(141, 198, 63, 1) 100%);
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline black;
+    width: 150px;
+    height: 30px;
+}
+
+.header-info {
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 10%;
+    color: white;
+}
+
+    .header-info h1{
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 30px;
+        align-items: center;
+        position: absolute;
+        left: 550px;
+        top: 150px;
+    }
+
+    .header-info p {
+        font-size: 18px;
+        color: #9497A1;
+        width: 30%;
+        position: absolute;
+        left: 700px;
+        top: 280px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .front-end a{
+        display: block;
+        text-decoration: none;
+        background: linear-gradient(90deg, rgba(0, 166, 81, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(36, 36, 36, 1) 100%);
+        border: greenyellow solid 1px;
+        color: white;
+        text-align: center;
+        padding: 0.9rem 2rem;
+        font-size: 15px;
+        font-weight: 600;
+        width: 12%;
+        position: absolute;
+        top: 400px;
+        left: 530px;
+        z-index: 5;
+        text-decoration: none;
+    
+    }
+
+    .front-end a:hover {
+        background: linear-gradient(90deg, rgba(0, 166, 81, 1) 0%, rgba(87, 199, 133, 1) 0%, rgba(141, 198, 63, 1) 100%);
+        color: black;
+        text-decoration: underline black;
+        padding: 0.9rem 2rem;
+        font-size: 15px;
+        font-weight: 600;
+        width: 12%;
+    }
+
+    .back-end a{
+        display: block;
+        text-decoration: none;
+        background: linear-gradient(90deg, rgba(0, 166, 81, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(36, 36, 36, 1) 100%);
+        border: greenyellow solid 1px;
+        color: white;
+        text-align: center;
+        padding: 0.9rem 2rem;
+        font-size: 15px;
+        font-weight: 600;
+        width: 12%;
+        position: absolute;
+        top: 400px;
+        left: 850px;
+    }
+
+    .back-end a:hover {
+        background: linear-gradient(90deg, rgba(0, 166, 81, 1) 0%, rgba(87, 199, 133, 1) 0%, rgba(141, 198, 63, 1) 100%);
+        color: black;
+        text-decoration: underline black;
+        padding: 0.9rem 2rem;
+        font-size: 15px;
+        font-weight: 600;
+        width: 12%;
+    }
+
+    .full-stack a {
+        display: block;
+        text-decoration: none;
+        background: linear-gradient(90deg, rgba(0, 166, 81, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(36, 36, 36, 1) 100%);
+        border: greenyellow solid 1px;
+        color: white;
+        text-align: center;
+        padding: 0.9rem 2rem;
+        font-size: 15px;
+        font-weight: 600;
+        width: 12%;
+        position: absolute;
+        top: 400px;
+        left: 1180px;
+    }
+
+    .full-stack a:hover{
+        background: linear-gradient(90deg, rgba(0, 166, 81, 1) 0%, rgba(87, 199, 133, 1) 0%, rgba(141, 198, 63, 1) 100%);
+        color: black;
+        text-decoration: underline black;
+        padding: 0.9rem 2rem;
+        font-size: 15px;
+        font-weight: 600;
+        width: 12%;
+    }
+
+    .front-end p {
+        font-size: 16px;
+        color: #9497A1;
+        width: 14%;
+        position: absolute;
+        left: 530px;
+        top: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .back-end p{
+        font-size: 16px;
+        color: #9497A1;
+        width: 14%;
+        position: absolute;
+        left: 850px;
+        top: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .full-stack p {
+        font-size: 16px;
+        color: #9497A1;
+        width: 14%;
+        position: absolute;
+        left: 1180px;
+        top: 500px;
+        align-items: center;
+        justify-content: center;
+    }
